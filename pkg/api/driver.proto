@@ -1,0 +1,30 @@
+syntax = "proto3";
+package api;
+option go_package = "grpc/driver";
+service DriverService{
+  rpc GetAllFreeDrivers(Request) returns (AllFreeDrivers) {}
+  rpc GetAllDrivers(Request) returns (AllDrivers) {}
+}
+
+message Driver{
+  string Id = 1;
+  string Phone = 2;
+  string Email = 3;
+  string TaxiType = 4;
+  string Status = 5;
+  int32 Rating = 6;
+}
+
+message AllDrivers{
+  repeated Driver drivers = 1;
+}
+
+
+
+message Request{
+
+}
+
+message AllFreeDrivers{
+  repeated Driver drivers = 1;
+}
