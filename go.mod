@@ -1,4 +1,4 @@
-module InnoTaxi-Driver
+module TaxiAppDriver
 
 go 1.18
 
@@ -11,6 +11,7 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/joho/godotenv v1.4.0
 	github.com/lib/pq v1.10.6
+	github.com/segmentio/kafka-go v0.4.34
 	github.com/swaggo/files v0.0.0-20220728132757-551d4a08d97a
 	github.com/swaggo/gin-swagger v1.5.2
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
@@ -46,7 +47,6 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.2 // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
-	github.com/segmentio/kafka-go v0.4.34 // indirect
 	github.com/swaggo/swag v1.8.1 // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	golang.org/x/net v0.0.0-20220805013720-a33c5aa5df48 // indirect

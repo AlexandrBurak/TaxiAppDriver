@@ -1,8 +1,8 @@
 package api
 
 import (
-	"InnoTaxi-Driver/internal/service"
-	pb "InnoTaxi-Driver/pkg/grpc"
+	"TaxiAppDriver/internal/service"
+	pb "TaxiAppDriver/pkg/grpc"
 	"context"
 )
 

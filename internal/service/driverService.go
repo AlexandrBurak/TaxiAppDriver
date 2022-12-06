@@ -1,8 +1,8 @@
 package service
 
 import (
-	"InnoTaxi-Driver/internal/broker"
-	"InnoTaxi-Driver/internal/model"
+	"TaxiAppDriver/internal/broker"
+	"TaxiAppDriver/internal/model"
 	"context"
 
 	"golang.org/x/crypto/bcrypt"

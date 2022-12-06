@@ -1,8 +1,8 @@
 package test
 
 import (
-	"InnoTaxi-Driver/internal/model"
-	srv "InnoTaxi-Driver/internal/service"
+	"TaxiAppDriver/internal/model"
+	srv "TaxiAppDriver/internal/service"
 	"context"
 	"errors"
 	"testing"

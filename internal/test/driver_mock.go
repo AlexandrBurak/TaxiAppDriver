@@ -5,7 +5,7 @@
 package test
 
 import (
-	model "InnoTaxi-Driver/internal/model"
+	model "TaxiAppDriver/internal/model"
 	context "context"
 	reflect "reflect"
 

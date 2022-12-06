@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"InnoTaxi-Driver/internal/config"
-	"InnoTaxi-Driver/internal/model"
+	"TaxiAppDriver/internal/config"
+	"TaxiAppDriver/internal/model"
 	"context"
 	"fmt"
 	"math/rand"
