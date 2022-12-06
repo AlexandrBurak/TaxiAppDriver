@@ -1,14 +1,14 @@
 package main
 
 import (
-	broker2 "InnoTaxi-Driver/internal/broker"
-	"InnoTaxi-Driver/internal/config"
-	handlers "InnoTaxi-Driver/internal/handler"
-	"InnoTaxi-Driver/internal/middleware"
-	"InnoTaxi-Driver/internal/repository"
-	"InnoTaxi-Driver/internal/service"
-	"InnoTaxi-Driver/pkg/api"
-	pb "InnoTaxi-Driver/pkg/grpc"
+	broker2 "TaxiAppDriver/internal/broker"
+	"TaxiAppDriver/internal/config"
+	handlers "TaxiAppDriver/internal/handler"
+	"TaxiAppDriver/internal/middleware"
+	"TaxiAppDriver/internal/repository"
+	"TaxiAppDriver/internal/service"
+	"TaxiAppDriver/pkg/api"
+	pb "TaxiAppDriver/pkg/grpc"
 	"context"
 	"log"
 	"net"
@@ -32,9 +32,9 @@ import (
 //@host localhost:8081
 //@BasePath /
 
-//@securityDefinitions.apikey SignIn
-//@in header
-//@name Authorization
+// @securityDefinitions.apikey SignIn
+// @in header
+// @name Authorization
 func main() {
 
 	cfg, err := config.GetCfg()
